@@ -9,7 +9,6 @@
    },
    "json_class": "Chef::Role",
    "run_list": [
-      "role[base]",
       "recipe[sphinx]",
       "monit_configs-tlq::sphinx"
    ],
