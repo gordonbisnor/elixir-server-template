@@ -11,7 +11,6 @@ cookbook 'memcached-tlq', github: 'TalkingQuickly/memcached-tlq'
 cookbook 'mongo-tlq', github: 'TalkingQuickly/mongo-tlq'
 cookbook 'redis-tlq', github: 'TalkingQuickly/redis-tlq'
 cookbook 'monit_configs-tlq', github: 'TalkingQuickly/monit_configs-tlq', branch: 'master'
-cookbook 'monit_configs-sphinx', github: 'gordonbisnor/monit_configs-sphinx', branch: 'master'
 cookbook 'monit-tlq', github: 'TalkingQuickly/monit-tlq', branch: 'master'
 cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_dependencies-tlq'
 
