@@ -11,6 +11,7 @@ cookbook 'memcached-tlq', github: 'TalkingQuickly/memcached-tlq'
 cookbook 'mongo-tlq', github: 'TalkingQuickly/mongo-tlq'
 cookbook 'redis-tlq', github: 'TalkingQuickly/redis-tlq'
 cookbook 'monit_configs-tlq', github: 'TalkingQuickly/monit_configs-tlq', branch: 'master'
+cookbook 'monit_configs-sphinx', github: 'gordonbisnor/monit_configs-sphinx', branch: 'master'
 cookbook 'monit-tlq', github: 'TalkingQuickly/monit-tlq', branch: 'master'
 cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_dependencies-tlq'
 
@@ -18,6 +19,16 @@ cookbook 'mysql', github: 'opscode-cookbooks/mysql'
 cookbook 'nginx-tlq', github: 'TalkingQuickly/nginx-tlq'
 cookbook 'rbenv', github: 'fnichol/chef-rbenv'
 cookbook 'postgresql', github: 'opscode-cookbooks/postgresql'
+
 cookbook 'hostnames', github: 'nathantsoi/chef-cookbook-hostname'
 
 cookbook 'locales', github: 'phbergsmann/chef-locales'
+
+
+cookbook 'percona'
+cookbook 'yum', github: 'opscode-cookbooks/yum'
+cookbook 'yum-epel', github: 'opscode-cookbooks/yum-epel'
+cookbook 'apt', github: 'opscode-cookbooks/apt'
+
+cookbook 'sphinx', github: 'jesseadams/sphinx-cookbook'
+

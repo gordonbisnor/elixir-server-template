@@ -58,6 +58,7 @@
     "role[nginx]",
     "role[postgres-server]",
     "role[rails-app]",
-    "role[redis-server]"
+    "role[redis-server]",
+    "role[sphinx]"
   ]
 }
