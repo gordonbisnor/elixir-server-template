@@ -1,0 +1,17 @@
+{
+   "name": "sphinx",
+   "description": "Sphinx",
+   "default_attributes": {
+      "sphinx": {
+        "use_mysql" : true,
+        "install_method": "package"
+      }
+   },
+   "json_class": "Chef::Role",
+   "run_list": [
+      "role[base]",
+      "recipe[sphinx]",
+      "monit_configs-tlq::sphinx"
+   ],
+   "chef_type": "role"
+}
