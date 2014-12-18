@@ -1,0 +1,9 @@
+{
+   "name": "pg-backup",
+   "description": "Postgres Backup",
+   "json_class": "Chef::Role",
+   "run_list": [
+      "recipe[pg-backup]"
+   ],
+   "chef_type": "role"
+}

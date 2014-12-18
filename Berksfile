@@ -25,6 +25,8 @@ cookbook 'hostnames', github: 'nathantsoi/chef-cookbook-hostname'
 cookbook 'locales', github: 'phbergsmann/chef-locales'
 
 
+
+
 cookbook 'percona'
 cookbook 'yum', github: 'opscode-cookbooks/yum'
 cookbook 'yum-epel', github: 'opscode-cookbooks/yum-epel'
@@ -32,3 +34,5 @@ cookbook 'apt', github: 'opscode-cookbooks/apt'
 
 cookbook 'sphinx', github: 'jesseadams/sphinx-cookbook'
 
+cookbook 'backup', github: 'gofullstack/backup-cookbook'
+cookbook 'pg-backup', github: 'gordonbisnor/pg-backup-cookbook'
