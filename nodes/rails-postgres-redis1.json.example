@@ -50,16 +50,22 @@
     "password" : {
       // this should be generated with:
       // openssl passwd -1 "plaintextpassword"
+<<<<<<< HEAD:nodes/rails-postgres-redis1.json.example
       "postgres" : "$1$bKeNPhS2$0H0gGjq60Eiqr1lYh.sL2/"
+=======
+      // currently test
+      "postgres" : "$1$mMK9HNoN$r42n7Q8fKsZabbknlT1Zt1"
+>>>>>>> upstream/master:nodes/rails-postgres-redis1.json
     }
   },
   "run_list":
   [
     "role[server]",
-    "role[nginx]",
+    "role[nginx-server]",
     "role[postgres-server]",
     "role[rails-app]",
     "role[redis-server]",
+<<<<<<< HEAD:nodes/rails-postgres-redis1.json.example
     "role[pg-backup]"
   ],
   "backups": {
@@ -69,4 +75,10 @@
     "access_key_id": "xxx",
     "secret_access_key": "yyy"
   },
+=======
+    "role[memcached-server]",
+    "role[mysql-server]",
+    "role[mongo-server]"
+  ]
+>>>>>>> upstream/master:nodes/rails-postgres-redis1.json
 }
