@@ -8,6 +8,6 @@ The configuration is also flexible enough to be adapted to multi machine setups.
 
 ## Documentation
 
-ssh-copy-id -i ~/.ssh/gordonKey root@45.56.99.200
-bundle exec knife solo prepare root@45.56.99.200
-bundle exec knife solo cook root@45.56.99.200
+ssh-copy-id -i ~/.ssh/yourKey root@xx.xx.xx.xxx
+bundle exec knife solo prepare root@xx.xx.xx.xxx
+bundle exec knife solo cook root@xx.xx.xx.xxx
