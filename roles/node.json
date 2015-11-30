@@ -1,0 +1,13 @@
+{
+  "name": "node",
+  "description": "Node",
+   "json_class": "Chef::Role",
+   "run_list": [
+      "recipe[nodejs]"
+   ],
+   "chef_type": "role"
+}
+
+
+
+
