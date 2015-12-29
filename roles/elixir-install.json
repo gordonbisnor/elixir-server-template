@@ -1,0 +1,13 @@
+{
+  "name": "elixir-install",
+  "description": "Elixir Install",
+   "json_class": "Chef::Role",
+   "run_list": [
+      "recipe[elixir-install]"
+   ],
+   "chef_type": "role"
+}
+
+
+
+
